@@ -104,13 +104,13 @@ repeat(abs(xspd)){
 	
 	if(place_meeting(x+sign(xspd),y,oChaozinGreen)){
 		if(!place_meeting(x+sign(xspd),y-1,oChaozinGreen) and global.dia == false){
-			
+			y--;
 			global.morto = true;
 		}
 	}else{
 		if(!place_meeting(x+sign(xspd),y+1,oChaozinGreen)){
 			if(place_meeting(x+sign(xspd),y+2,oChaozinGreen) and global.dia == false){
-				
+				y++;
 				global.morto = true;
 			}
 		}

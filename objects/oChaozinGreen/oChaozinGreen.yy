@@ -35,6 +35,9 @@
     "name": "sChaozinGreen",
     "path": "sprites/sChaozinGreen/sChaozinGreen.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sChaozinGreen",
+    "path": "sprites/sChaozinGreen/sChaozinGreen.yy",
+  },
   "visible": true,
 }
